@@ -768,7 +768,6 @@ function Flatpickr(element, config) {
 					break;
 
 				case 27: // escape
-					self.clear();
 					self.redraw();
 					self.close();
 					break;
